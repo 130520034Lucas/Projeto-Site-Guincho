@@ -1,6 +1,6 @@
 import React from 'react';
 // Importe a imagem diretamente
-import logoImage from '../assets/logoaservice.jpg';
+import logoImage from 'public/logoaservice.jpg';
 
 interface LogoProps {
   className?: string;
