@@ -1,3 +1,4 @@
+// Importações necessárias
 import React, { useState, useCallback, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Car, Droplet, Disc, Battery, Map, Calendar } from 'lucide-react';
 
@@ -194,6 +195,9 @@ const ServiceCarousel: React.FC = () => {
 };
 
 export default ServiceCarousel;
+
+
+
 
 
 

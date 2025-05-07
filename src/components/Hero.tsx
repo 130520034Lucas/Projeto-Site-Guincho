@@ -29,8 +29,8 @@ const Hero: React.FC = () => {
         >
           Solicitar guincho agora
         </a>
-        <p className="mt-4 text-lg font-medium text-white" style={{ textShadow: '1px 1px 0 #000' }}>
-          Faça já seu Orçamento
+        <p className="mt-3 text-lg" style={{ textShadow: '1px 1px 0 #000' }}>
+          Faça já seu orçamento
         </p>
       </div>
     </div>
@@ -38,6 +38,9 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
+
+
 
 
 

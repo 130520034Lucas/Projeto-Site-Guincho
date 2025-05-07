@@ -7,5 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: './', // Usar caminhos relativos para melhor compatibilidade
 });
+
+
 

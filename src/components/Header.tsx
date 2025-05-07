@@ -15,17 +15,8 @@ const Header: React.FC = () => {
             </h1>
           </div>
           
-          {/* Telefone e botões - reorganizados */}
-          <div className="w-full md:w-2/3 flex flex-col items-center mb-3 md:mb-0">
-            {/* Número de telefone */}
-            <a 
-              href="tel:+5541988355326" 
-              className="flex items-center text-red-600 hover:text-red-800 transition-colors mb-4"
-            >
-              <span className="font-medium text-xl md:text-2xl" style={{ textShadow: '0.5px 0.5px 0 #000' }}>
-                (41) 98835-5326
-              </span>
-            </a>
+          {/* Botões de contato - centralizado em mobile, à direita em desktop */}
+          <div className="w-full md:w-1/3 flex flex-col items-center">
             
             {/* Botões lado a lado */}
             <div className="flex justify-center space-x-6 mb-3">
@@ -90,6 +81,9 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
+
+
 
 
 
