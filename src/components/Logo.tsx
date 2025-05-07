@@ -7,7 +7,7 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ className = "" }) => {
   return (
     <img 
-      src="LogoAService.jpg" 
+      src="/logoaservice.jpg" 
       alt="A Service Auto Socorro Logo" 
       className={className}
     />
@@ -15,3 +15,9 @@ const Logo: React.FC<LogoProps> = ({ className = "" }) => {
 };
 
 export default Logo;
+
+
+
+
+
+
