@@ -4,49 +4,49 @@ import { ChevronLeft, ChevronRight, Car, Droplet, Disc, Battery, Map, Calendar }
 const carouselServices = [
   {
     id: 1,
-    image: "/imagen2.jpg",
+    image: "./imagen2.jpg",
     title: "Reboque para carros de passeio",
     description: "Serviço de guincho profissional para veículos leves com segurança e rapidez."
   },
   {
     id: 2,
-    image: "/imagen3.jpg",
+    image: "./imagen3.jpg",
     title: "Resgate em qualquer local",
     description: "Atendemos em estradas, rodovias e vias urbanas com equipamentos adequados."
   },
   {
     id: 3,
-    image: "/imagen4.jpg",
+    image: "./imagen4.jpg",
     title: "Transporte seguro",
     description: "Seu veículo transportado com toda segurança e cuidado necessário."
   },
   {
     id: 4,
-    image: "/imagen5.jpg",
+    image: "./imagen5.jpg",
     title: "Atendimento 24 horas",
     description: "Disponíveis a qualquer hora para auxiliar você."
   },
   {
     id: 5,
-    image: "/imagen6.jpg",
+    image: "./imagen6.jpg",
     title: "Equipamentos modernos",
     description: "Utilizamos equipamentos adequados para cada tipo de situação."
   },
   {
     id: 6,
-    image: "/imagen7.jpg",
+    image: "./imagen7.jpg",
     title: "Profissionais experientes",
     description: "Equipe treinada e capacitada para melhor atendimento."
   },
   {
     id: 7,
-    image: "/imagen8.jpg",
+    image: "./imagen8.jpg",
     title: "Cobertura regional",
     description: "Atendimento em toda região metropolitana."
   },
   {
     id: 8,
-    image: "/imagen9.jpg",
+    image: "./imagen9.jpg",
     title: "Serviço de qualidade",
     description: "Comprometimento com a satisfação do cliente."
   }
@@ -194,6 +194,8 @@ const ServiceCarousel: React.FC = () => {
 };
 
 export default ServiceCarousel;
+
+
 
 
 

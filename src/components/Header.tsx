@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                 aria-label="WhatsApp"
               >
                 <img 
-                  src="/whatsapplogo.png" 
+                  src="./whatsapplogo.png" 
                   alt="WhatsApp" 
                   className="w-8 h-8 mr-2"
                   style={{ 
@@ -65,7 +65,7 @@ const Header: React.FC = () => {
               aria-label="Instagram"
             >
               <img 
-                src="/instagram.png" 
+                src="./instagram.png" 
                 alt="Instagram" 
                 className="w-15 h-9 mr-0"
                 style={{ 
@@ -90,6 +90,8 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
+
 
 
 

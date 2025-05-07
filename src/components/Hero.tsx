@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center" 
         style={{
-          backgroundImage: 'url("/imagen8.jpg")',
+          backgroundImage: 'url("./imagen8.jpg")',
           filter: 'brightness(0.6)'
         }}
       ></div>
@@ -38,6 +38,8 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
+
 
 
 
